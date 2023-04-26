@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.page_container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content_container {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.image_content {
+  width: 350px;
+  height: 350px;
+}
+
+.heading_image_name {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 38px;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.darkBg {
+  background-color: black;
+}
+
+.lightBg {
+  background-color: white;
+}

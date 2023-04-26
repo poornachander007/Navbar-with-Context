@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.navBar {
+  width: 100%;
+  padding: 5px 20px 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.navBarLightBg {
+  background-color: white;
+  /* border-bottom: 1px solid rgb(66, 61, 61); */
+  box-shadow: 0px 1px 2px 2px rgb(172, 167, 167);
+  /* border: 2px solid red; */
+}
+
+.navBarDarkBg {
+  background-color: rgb(48, 44, 44);
+  box-shadow: 0px 1px 2px 2px rgb(63, 60, 60);
+}
+
+.logo_website {
+  width: 50px;
+}
+
+.ul_container {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lightColorFont {
+  color: white;
+}
+
+.darkColorFont {
+  color: rgb(29, 9, 77);
+  /* color: red; */
+}
+
+.li_option {
+  list-style-type: none;
+  padding: 0;
+  margin: 5px;
+}
+
+.link_to_navigate {
+  text-decoration: none;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  /* background-color: red; */
+}
+
+.icon_Theme {
+  width: 40px;
+}
